@@ -37,6 +37,7 @@ public class OperationSigns {
 	   System.out.println(b1 && b2 && b3);//false
 	   System.out.println(b4 && b3);//false
 	   
+	   //To get false from ||, everything must be false
 	   System.out.println(b1 || b2 || b3);//true
 	   System.out.println(b4 || b2 || b3 || b3 || b4);//true
 		
