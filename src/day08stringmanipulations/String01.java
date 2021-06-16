@@ -41,18 +41,62 @@ public class String01 {
 		  					For non-repeated values indexOf() and lastIndex() methods return same value
 	   */
 		
+		//10.Method: startsWith() <== Used to check the initial of a String + Returns boolean
+		String s2 = "Java is easy";
+		
+		System.out.println(s2.startsWith("J"));//true <== startsWith() method works just with Strings
+		System.out.println(s2.startsWith("j"));//false
+		
+		System.out.println(s2.startsWith("Java"));//true
+		System.out.println(s2.startsWith("Javax"));//false
+		
+		System.out.println(s2.startsWith("i", 5));//true <== After the 5 characters, Java will check if the next character 
+		                                          //         is "i" or not
 		
 		
+		//11.Method: endsWith() <== Used to check the last character/s of a String + Returns boolean
+		System.out.println(s2.endsWith("y"));//true
+		System.out.println(s2.endsWith("m"));//false
+		System.out.println(s2.endsWith("easy"));//true
 		
+		//12.Method: isEmpty() <== Checks if a String is empty String or not + Returns boolean
+		//                         If isEmpty() returns true, it means the length of the String is zero
+		String s3 = "";
+		String s4 = null;
+		System.out.println(s2.isEmpty());//false
+		System.out.println(s3.isEmpty());//true
+		//System.out.println(s4.isEmpty());//NullPointerException <== Do not use isEmpty() for null String
 		
+		//13.Method: concat() <== Used to concatenate two or more Strings + Returns Strings
+		String s5 = "Ali";
+		String s6 = "Can";
 		
+		System.out.println(s5 + s6);//AliCan <== + --> Addition for integers
+		                            //       <== + --> Addition for chars
+		                            //       <== + --> Concatenation for Strings		
+		System.out.println(s5.concat(s6).concat(" Wooow!"));//AliCan Wooow!
 		
+		//14.Method: replace() <== Used to replace new characters instead of old characters + Returns String
+		String s7 = "$3,199.99";
+		System.out.println(s7.replace("$", "").replace(",", "").replace(".", ""));
 		
+		String s8 = "Java ahh Java!...";
+		System.out.println(s8.replace("Java", "Python"));//Python ahh Python!...
 		
+		String s9 = "Saltwater Fishing Boats"; //Convert s9 to saltwater_fishing_boats
+		System.out.println(s9.toLowerCase().replace(" ", "_"));
 		
+		String s10 = "Java"; // J_A_V_A_
+		//1.Way
+		System.out.println(s10.toUpperCase().replace("A", "_A_"));
+		//2.Way
+		System.out.println(s10.replace("a", "_A_").replace("v", "V"));
 		
+		System.out.println(s10.replace("", "/"));// ==> /J/a/v/a/
 		
-		
+		String s11 = "Java is";
+		System.out.println(s11.replace("", "!")); // ==> !J!a!v!a! !i!s! 		
+		System.out.println(s11.replace('a', 'x'));// Jxvx is <== replace() can be used with chars and Strings
 
 	}
 
