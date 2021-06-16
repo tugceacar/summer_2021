@@ -30,8 +30,16 @@ public class String01 {
 		
 		System.out.println(s1.lastIndexOf('a', 10));//9 <== lastIndexOf() gets the first 5 characters in that example
 		                                            //      then returns the index of a
-		
 		System.out.println(s1.lastIndexOf("e", 14));
+		
+		/*
+		  How can you understand a character is used just once in a String by using indexOf() and lastIndex() methods
+		  Ex: "HHelloo" ==> indexOf("H") --> 0   lastIndexOf("H") --> 1
+		  					indexOf("l") --> 3   lastIndexOf("l") --> 4
+		  					
+		  					indexOf("e") --> 2   lastIndexOf("l") --> 2  
+		  					For non-repeated values indexOf() and lastIndex() methods return same value
+	   */
 		
 		
 		
