@@ -96,7 +96,7 @@ public class String01 {
 		
 		String s11 = "Java is";
 		System.out.println(s11.replace("", "!")); // ==> !J!a!v!a! !i!s! 		
-		System.out.println(s11.replace('a', 'x'));// Jxvx is <== replace() can be used with chars and Strings
+		System.out.println(s11.replace('a', 'x'));// Jxvx is <== replace() can be used with chars and Strings	
 
 	}
 
