@@ -34,7 +34,6 @@ public class Question01 {
 		
 		//1.Step:
 		name = name.trim();
-		//System.out.println("After:" + name);
 		
 		//2.Step:
 		if(name.isBlank()) {
@@ -52,7 +51,6 @@ public class Question01 {
 			int firstIdx = name.indexOf(" ");
 			int lastIdx = name.lastIndexOf(" ");
 			name = name.substring(0, firstIdx) + " " + name.substring(lastIdx+1);
-			//System.out.println(name);
 		}
 
 		//5.Step:
@@ -61,7 +59,7 @@ public class Question01 {
 		 	When you create a variable between any curly barces, the variable can be used just inside the curly brace.
 		 	If you try to use the variable outside the curly brace, Java will give Compile Time Error.
 		 	This is called "Scope" in Java
-		 */
+		*/
 		
 		int idxOfSpace = name.indexOf(" ");
 		String firstNameFormatted = "";
