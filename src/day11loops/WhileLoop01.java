@@ -16,12 +16,9 @@ public class WhileLoop01 {
 		
 		int i=1;
 		
-		while(i<6) {
-			
-			System.out.println("Hello!");
-			
-			i++;
-			
+		while(i<4) {			
+			System.out.println("Hello!");			
+			i++;			
 		}
 
 	}
