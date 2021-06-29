@@ -39,12 +39,20 @@ public class Animal {
 	}
 
 	public Animal(String specy) {
-		this("Bobby", 5, 'M');
-		this.specy = specy;
+		/*
+		 	1) this() is used for constructor call
+		 	2) this() must be in the first line inside the constructor
+		 	3) In a constructor, how many times can "this()" be used? 
+		 	   Answer: At most once. Because this() must be in the first line, if you use 
+		 	           more than once where will you put it? You need to put it into second, third, .. etc
+		 	           lines but it is not allowed.
+		 	           
+		 	What is the difference between "this()" and "this"?           
+		 	1)"this()" is used for constructor call, "this" is used for variable call.          
+		 	2)"this()" can be used just once, "this" can be used many times.         	           
+	   */
+		this("Bobby", 5, 'M'); 	
+		this.specy = specy;		
 		counter++;
 	}
-	
-	
-	
-
 }
