@@ -42,6 +42,11 @@ public class PassByValue {
 		 	Reference itsef and copy of reference points the same object, because of that when you call a method 
 		 	for mutable objects, original value will be updated.
 		*/
+		
+		/*
+		 	When you list methods, original list will be updated.
+		 	If you want to keep original list in your application, use List.copyOf() method
+		 */
 		List<String> list = new ArrayList<>();
 		list.add("Hi");
 		list.add("Wooow");
@@ -52,7 +57,7 @@ public class PassByValue {
 		System.out.println("Before method call: " + list);//
 		
 		putExclamationMark(list);
-		System.out.println("After method call: " + list1);//[Hi!, Wooow!, Sorry!]
+		System.out.println("After method call: " + list1);//[Hi, Wooow, Sorry]
 		System.out.println("After method call: " + list);//[Hi!, Wooow!, Sorry!]
 		
 	}
@@ -72,11 +77,5 @@ public class PassByValue {
 		}
 		return list;
 	}
-	
-	
-	
-	
-	
-	
 
 }
