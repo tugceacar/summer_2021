@@ -1,8 +1,8 @@
 package day24multithreadsyncencapsulation;
 
-public class Bird {
+public class Bird extends Animal {
 
-	public static void fly() {
+	public void fly() {
 		System.out.println("Birds fly...");
 	}
 	

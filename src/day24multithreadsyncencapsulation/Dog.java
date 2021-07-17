@@ -1,8 +1,8 @@
 package day24multithreadsyncencapsulation;
 
-public class Dog {
+public class Dog extends Animal{
 	
-	public static void bark() {
+	public void bark() {
 		System.out.println("Dogs bark...");
 	}
 
