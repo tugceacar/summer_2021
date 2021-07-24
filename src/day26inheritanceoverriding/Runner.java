@@ -20,8 +20,6 @@ public class Runner {
 	public static void main(String[] args) {
 		
 		Mammal b1 = new Bird();
-		
-		
 
 	}
 
