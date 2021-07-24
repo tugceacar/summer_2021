@@ -14,6 +14,12 @@ package day24multithreadsyncencapsulation;
 	 	5)A child class may have grandparents as well
 	*/
 
+	/*
+	 	1)Single Inheritance: Child can have just a single parent
+	 	2)Hierachical Inheritance: A parent will have mutliple child classes
+	 	3)Multi-level Inheritance: If a child has parent, grandparent, grand-grandparent,...
+	 */
+
 public class Animal {
 	
 	public void move() {
