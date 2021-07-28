@@ -15,6 +15,7 @@ public class E02 {
 	 	5)When you type code if you get red underline for Exceptions, that kind of Exceptions are called "Checked Exceptions" 
 	 	  If you do not get any red underline for some Exceptions, they are called "Unchecked Exceptions"
 	 	  FileNotFoundException and IOException are "checked exceptions"
+	 	6)If there is any Exception Java stops execution
 	 */
 
 	public static void main(String[] args) {
