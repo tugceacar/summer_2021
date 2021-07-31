@@ -7,6 +7,7 @@ public interface Music {
 	
 	void sound();
 	void tune();
+	void eat();
 	
 	static void volume() {
 		System.out.println("Do not listen to the music with high volume...");

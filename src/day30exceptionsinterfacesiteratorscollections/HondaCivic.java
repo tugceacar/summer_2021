@@ -36,5 +36,11 @@ public class HondaCivic implements Engine, AirCondition, Music {
 		System.out.println("Tune Honda radio...");
 		
 	}
+	@Override
+	public void eat() {
+		
+		System.out.println("Eat well..");
+		
+	}
 
 }

@@ -9,6 +9,8 @@ public interface Engine {
 	
 	void speedLimit();
 	
+	void eat();
+	
 	default void accelerate() {
 		System.out.println("Accelerate quickly...");
 	}
