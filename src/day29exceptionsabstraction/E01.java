@@ -2,6 +2,8 @@ package day29exceptionsabstraction;
 
 import java.util.Scanner;
 
+import day30exceptionsinterfacesiteratorscollections.I01;
+
 public class E01 {
 	
 	/*
