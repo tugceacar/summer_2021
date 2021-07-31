@@ -2,6 +2,7 @@ package day30exceptionsinterfacesiteratorscollections;
 
 /*
  	1)To make a concrete class child of an interface use "implements" keyword not "extends"
+ 	2)Interfaces can be used as data type of the objects, but they cannot be used as constructor
  */
 
 public class HondaCivic implements Engine, AirCondition, Music {

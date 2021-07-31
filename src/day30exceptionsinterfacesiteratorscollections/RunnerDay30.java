@@ -25,8 +25,9 @@ public class RunnerDay30 {
 		//In interfaces, to call variables using interface names are the best option
 		System.out.println(Engine.price);
 		
-		//Having abstract methods with the same name in
-		//parent interfaces is not problem.
+		//Having abstract methods with the same name in parent interfaces is not problem.
+		//But if the methods whose names are same have different return types gives Compile Time Error
+		//If you need to use different return type make the method names different
 		hc1.eat();
 		
 
