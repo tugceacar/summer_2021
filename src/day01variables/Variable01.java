@@ -8,11 +8,7 @@ public class Variable01 {
 	     b)Type a name for the variable
 	     c)"="
 	     d)Value
-	  3) Data Types;
-	     a) "int" ==> integer: Whole numbers like 2, 132, -54, 0
-	     b) "double" ==> decimals: Range is larger
-	     c) "float"  ==> decimals: Range is smaller than double's range
-	*/
+
 	
 	/*
 	 	Note: If you create a variable inside a method, you should "initialize" it.
